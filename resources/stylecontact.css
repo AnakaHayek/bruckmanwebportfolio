@@ -1,10 +1,12 @@
+* {
+    background-color: antiquewhite;
+}
 header {
     height: 32px;
-    color: slategray;
 }
 
 h1 {
-    color: antiquewhite;
+    color: slategray;
     font-size: 24px;
     display: flex;
     justify-content: center;
@@ -16,12 +18,31 @@ h2 {
 }
 
 form {
-    background-color: slategray;
+    background-color: slategray !important;
+}
+span {
+    color: antiquewhite;
+    background-color: slategray !important;
 }
 label {
     color: antiquewhite;
+    background-color: slategray !important;
 }
 #contactInfo {
     display: none;
+    background-color: slategray !important;
+}
+p {
+    color: antiquewhite;
+}
+button {
+    background-color: antiquewhite;
+    color: slategray;
 }
 
+footer {
+    background-color: antiquewhite;
+}
+a {
+    color: slategray;
+}
