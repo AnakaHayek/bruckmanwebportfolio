@@ -3,24 +3,25 @@
     <header>
         <h1>Hailey Bruckman</h1>
         <link href="./stylecontact.css" rel="stylesheet">
+        <script src="./webportfolio.js" async></script>
     </header>
 
     <main>
         <h2>Contact</h2>
-        <form action="submit_form" method="POST">
+        <div>
             <span>What is your preferred method of contact?</span><br>
-            <input type="radio" name="contact" id='phone' value="phone">
-            <label for="phone">Phone</label><br>
-            <input type="radio" name="contact" id='email' value="email">
-            <label for="email">Email</label><br>
-            <input type="radio" name="contact" id="fax" value="fax">
-            <label for="fax">Fax</label><br>
-        </form>
+            
+                <button id="phone">Phone</button>
+                <button id="email">Email</button>
+                <button id="fax">Fax</button>
+            
+        </div>
 
         <div id="contactInfo">
             <p></p>
-            <button>Close</button>
+            <button id="close">Close</button>
         </div>
+        <br>
 
     </main>
 

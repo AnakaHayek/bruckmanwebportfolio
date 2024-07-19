@@ -1,5 +1,6 @@
 * {
     background-color: antiquewhite;
+    color: slategray;
 }
 header {
     height: 32px;
@@ -17,16 +18,17 @@ h2 {
     font-size: 18px;
 }
 
-form {
-    background-color: slategray !important;
+div {
+    border: 2px solid slategray;
+    padding: 2px;
+    width: 50%;
 }
-span {
-    color: antiquewhite;
-    background-color: slategray !important;
-}
-label {
-    color: antiquewhite;
-    background-color: slategray !important;
+
+button {
+    background-color: slategray;
+    color: white;
+    text-decoration: underline;
+    border-color: slategray;
 }
 #contactInfo {
     display: none;
@@ -34,15 +36,13 @@ label {
 }
 p {
     color: antiquewhite;
+    background-color: slategray;
 }
 button {
     background-color: antiquewhite;
     color: slategray;
 }
 
-footer {
-    background-color: antiquewhite;
-}
 a {
     color: purple;
 }
