@@ -36,3 +36,24 @@ h3, li {
 a {
     color: purple;
 }
+
+@media only screen and (max-width: 480px) {
+    img {
+        width: 80%;
+        height: width;
+        display: flexbox;
+        justify-content: center;
+    }
+    #text {
+        display: flexbox;
+        justify-content: center;
+    }
+    #about {
+        display: flexbox;
+        justify-content: center;
+    }
+    #projects {
+        display: flexbox;
+        justify-content: center;
+    }
+}
