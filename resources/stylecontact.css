@@ -46,3 +46,15 @@ button {
 a {
     color: purple;
 }
+
+@media only screen and (max-width: 480px) {
+    #contactInfo {
+        min-width: 200px;
+    }
+    #input {
+        min-width: 200px;
+    }
+    button {
+        display: block;
+    }
+}
